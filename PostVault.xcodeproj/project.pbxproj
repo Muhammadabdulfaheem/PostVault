@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0249ED5806736E91F8EBB1A6 /* Pods_PostVaultPods_PostVaultUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C0713955DA0345221BD05C /* Pods_PostVaultPods_PostVaultUITests.framework */; };
+		152072AB9137732E893FE01F /* Pods_PostVaultPods_PostVault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1984B6A7B78D46276E77B330 /* Pods_PostVaultPods_PostVault.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43D3BE942FA0EC41006E3E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43D3BE6B2FA0EC3F006E3E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D3BE722FA0EC3F006E3E5D;
+			remoteInfo = PostVault;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EBCA0A2CCF8D337422A281 /* Pods-PostVaultUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultUITests.debug.xcconfig"; path = "Target Support Files/Pods-PostVaultUITests/Pods-PostVaultUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1984B6A7B78D46276E77B330 /* Pods_PostVaultPods_PostVault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostVaultPods_PostVault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C0713955DA0345221BD05C /* Pods_PostVaultPods_PostVaultUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PostVaultPods_PostVaultUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D3BE732FA0EC3F006E3E5D /* PostVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D3BE932FA0EC41006E3E5D /* PostVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579DF69BE1269CFA83DEA532 /* Pods-PostVaultPods-PostVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultPods-PostVault.release.xcconfig"; path = "Target Support Files/Pods-PostVaultPods-PostVault/Pods-PostVaultPods-PostVault.release.xcconfig"; sourceTree = "<group>"; };
+		5878D9C8ACB518D281F72D04 /* Pods-PostVaultUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultUITests.release.xcconfig"; path = "Target Support Files/Pods-PostVaultUITests/Pods-PostVaultUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63EA749FEABD39D2DA88FEB1 /* Pods-PostVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVault.debug.xcconfig"; path = "Target Support Files/Pods-PostVault/Pods-PostVault.debug.xcconfig"; sourceTree = "<group>"; };
+		970092D27D810E044CA67E61 /* Pods-PostVaultPods-PostVaultUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultPods-PostVaultUITests.release.xcconfig"; path = "Target Support Files/Pods-PostVaultPods-PostVaultUITests/Pods-PostVaultPods-PostVaultUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9CE1AD3398612CD7EDD57F08 /* Pods-PostVaultPods-PostVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultPods-PostVault.debug.xcconfig"; path = "Target Support Files/Pods-PostVaultPods-PostVault/Pods-PostVaultPods-PostVault.debug.xcconfig"; sourceTree = "<group>"; };
+		C82CBB8A7EEAE2F430142D8B /* Pods-PostVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVault.release.xcconfig"; path = "Target Support Files/Pods-PostVault/Pods-PostVault.release.xcconfig"; sourceTree = "<group>"; };
+		DE685D71F6561D50D4B1F8B3 /* Pods-PostVaultPods-PostVaultUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostVaultPods-PostVaultUITests.debug.xcconfig"; path = "Target Support Files/Pods-PostVaultPods-PostVaultUITests/Pods-PostVaultPods-PostVaultUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		43D3BE9B2FA0EC41006E3E5D /* Exceptions for "PostVault" folder in "PostVault" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 43D3BE722FA0EC3F006E3E5D /* PostVault */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		43D3BE752FA0EC3F006E3E5D /* PostVault */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				43D3BE9B2FA0EC41006E3E5D /* Exceptions for "PostVault" folder in "PostVault" target */,
+			);
+			path = PostVault;
+			sourceTree = "<group>";
+		};
+		43D3BE962FA0EC41006E3E5D /* PostVaultUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PostVaultUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D3BE702FA0EC3F006E3E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152072AB9137732E893FE01F /* Pods_PostVaultPods_PostVault.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D3BE902FA0EC41006E3E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0249ED5806736E91F8EBB1A6 /* Pods_PostVaultPods_PostVaultUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D3BE6A2FA0EC3F006E3E5D = {
+			isa = PBXGroup;
+			children = (
+				43D3BE752FA0EC3F006E3E5D /* PostVault */,
+				43D3BE962FA0EC41006E3E5D /* PostVaultUITests */,
+				43D3BE742FA0EC3F006E3E5D /* Products */,
+				EECF71A19465BD94ED0C6B4F /* Pods */,
+				BFC44670E39834A98436994C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		43D3BE742FA0EC3F006E3E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D3BE732FA0EC3F006E3E5D /* PostVault.app */,
+				43D3BE932FA0EC41006E3E5D /* PostVaultUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC44670E39834A98436994C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1984B6A7B78D46276E77B330 /* Pods_PostVaultPods_PostVault.framework */,
+				34C0713955DA0345221BD05C /* Pods_PostVaultPods_PostVaultUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECF71A19465BD94ED0C6B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63EA749FEABD39D2DA88FEB1 /* Pods-PostVault.debug.xcconfig */,
+				C82CBB8A7EEAE2F430142D8B /* Pods-PostVault.release.xcconfig */,
+				00EBCA0A2CCF8D337422A281 /* Pods-PostVaultUITests.debug.xcconfig */,
+				5878D9C8ACB518D281F72D04 /* Pods-PostVaultUITests.release.xcconfig */,
+				9CE1AD3398612CD7EDD57F08 /* Pods-PostVaultPods-PostVault.debug.xcconfig */,
+				579DF69BE1269CFA83DEA532 /* Pods-PostVaultPods-PostVault.release.xcconfig */,
+				DE685D71F6561D50D4B1F8B3 /* Pods-PostVaultPods-PostVaultUITests.debug.xcconfig */,
+				970092D27D810E044CA67E61 /* Pods-PostVaultPods-PostVaultUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D3BE722FA0EC3F006E3E5D /* PostVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D3BE9C2FA0EC41006E3E5D /* Build configuration list for PBXNativeTarget "PostVault" */;
+			buildPhases = (
+				8B1139D74055C1FF410762F1 /* [CP] Check Pods Manifest.lock */,
+				43D3BE6F2FA0EC3F006E3E5D /* Sources */,
+				43D3BE702FA0EC3F006E3E5D /* Frameworks */,
+				43D3BE712FA0EC3F006E3E5D /* Resources */,
+				0230BBCE55CE79218794AC8C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				43D3BE752FA0EC3F006E3E5D /* PostVault */,
+			);
+			name = PostVault;
+			productName = PostVault;
+			productReference = 43D3BE732FA0EC3F006E3E5D /* PostVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43D3BE922FA0EC41006E3E5D /* PostVaultUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D3BEA42FA0EC41006E3E5D /* Build configuration list for PBXNativeTarget "PostVaultUITests" */;
+			buildPhases = (
+				E46FC60857B8DF36CD0AD5E5 /* [CP] Check Pods Manifest.lock */,
+				43D3BE8F2FA0EC41006E3E5D /* Sources */,
+				43D3BE902FA0EC41006E3E5D /* Frameworks */,
+				43D3BE912FA0EC41006E3E5D /* Resources */,
+				18EBA2F69CBB64B4AF1C70D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D3BE952FA0EC41006E3E5D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				43D3BE962FA0EC41006E3E5D /* PostVaultUITests */,
+			);
+			name = PostVaultUITests;
+			productName = PostVaultUITests;
+			productReference = 43D3BE932FA0EC41006E3E5D /* PostVaultUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D3BE6B2FA0EC3F006E3E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					43D3BE722FA0EC3F006E3E5D = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					43D3BE922FA0EC41006E3E5D = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 43D3BE722FA0EC3F006E3E5D;
+					};
+				};
+			};
+			buildConfigurationList = 43D3BE6E2FA0EC3F006E3E5D /* Build configuration list for PBXProject "PostVault" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43D3BE6A2FA0EC3F006E3E5D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 43D3BE742FA0EC3F006E3E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D3BE722FA0EC3F006E3E5D /* PostVault */,
+				43D3BE922FA0EC41006E3E5D /* PostVaultUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D3BE712FA0EC3F006E3E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D3BE912FA0EC41006E3E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0230BBCE55CE79218794AC8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVault/Pods-PostVaultPods-PostVault-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVault/Pods-PostVaultPods-PostVault-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVault/Pods-PostVaultPods-PostVault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18EBA2F69CBB64B4AF1C70D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVaultUITests/Pods-PostVaultPods-PostVaultUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVaultUITests/Pods-PostVaultPods-PostVaultUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PostVaultPods-PostVaultUITests/Pods-PostVaultPods-PostVaultUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1139D74055C1FF410762F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostVaultPods-PostVault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46FC60857B8DF36CD0AD5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostVaultPods-PostVaultUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D3BE6F2FA0EC3F006E3E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43D3BE8F2FA0EC41006E3E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D3BE952FA0EC41006E3E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43D3BE722FA0EC3F006E3E5D /* PostVault */;
+			targetProxy = 43D3BE942FA0EC41006E3E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43D3BE9D2FA0EC41006E3E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE1AD3398612CD7EDD57F08 /* Pods-PostVaultPods-PostVault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YEHYH92AX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PostVault/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PostVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D3BE9E2FA0EC41006E3E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579DF69BE1269CFA83DEA532 /* Pods-PostVaultPods-PostVault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YEHYH92AX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PostVault/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PostVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43D3BE9F2FA0EC41006E3E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43D3BEA02FA0EC41006E3E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D3BEA52FA0EC41006E3E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE685D71F6561D50D4B1F8B3 /* Pods-PostVaultPods-PostVaultUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YEHYH92AX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PostVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostVault;
+			};
+			name = Debug;
+		};
+		43D3BEA62FA0EC41006E3E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970092D27D810E044CA67E61 /* Pods-PostVaultPods-PostVaultUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YEHYH92AX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dd.PostVaultUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostVault;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D3BE6E2FA0EC3F006E3E5D /* Build configuration list for PBXProject "PostVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D3BE9F2FA0EC41006E3E5D /* Debug */,
+				43D3BEA02FA0EC41006E3E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D3BE9C2FA0EC41006E3E5D /* Build configuration list for PBXNativeTarget "PostVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D3BE9D2FA0EC41006E3E5D /* Debug */,
+				43D3BE9E2FA0EC41006E3E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D3BEA42FA0EC41006E3E5D /* Build configuration list for PBXNativeTarget "PostVaultUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D3BEA52FA0EC41006E3E5D /* Debug */,
+				43D3BEA62FA0EC41006E3E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43D3BE6B2FA0EC3F006E3E5D /* Project object */;
+}

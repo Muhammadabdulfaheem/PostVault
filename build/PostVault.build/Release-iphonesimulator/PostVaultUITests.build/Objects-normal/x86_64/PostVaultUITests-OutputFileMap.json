@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary.swiftconstvalues",
+    "dependencies" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary.d",
+    "diagnostics" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary.dia",
+    "emit-module-dependencies" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary-emit-module.dia",
+    "pch" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostVaultUITests-primary.swiftdeps"
+  },
+  "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/PostVaultUITests/Features/Auth/LoginUITests.swift" : {
+    "index-unit-output-path" : "/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/LoginUITests.o",
+    "llvm-bc" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/LoginUITests.bc",
+    "object" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/LoginUITests.o"
+  },
+  "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/PostVaultUITests/Features/Tabbar/FavoritesUITests.swift" : {
+    "index-unit-output-path" : "/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/FavoritesUITests.o",
+    "llvm-bc" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/FavoritesUITests.bc",
+    "object" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/FavoritesUITests.o"
+  },
+  "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/PostVaultUITests/Features/Tabbar/PostListUITests.swift" : {
+    "index-unit-output-path" : "/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostListUITests.o",
+    "llvm-bc" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostListUITests.bc",
+    "object" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/PostListUITests.o"
+  },
+  "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/PostVaultUITests/Support/XCUIApplication+PostVaultUITest.swift" : {
+    "index-unit-output-path" : "/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/XCUIApplication+PostVaultUITest.o",
+    "llvm-bc" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/XCUIApplication+PostVaultUITest.bc",
+    "object" : "/Users/faheem/Desktop/IOS/POSTVALUT/PostVault/build/PostVault.build/Release-iphonesimulator/PostVaultUITests.build/Objects-normal/x86_64/XCUIApplication+PostVaultUITest.o"
+  }
+}

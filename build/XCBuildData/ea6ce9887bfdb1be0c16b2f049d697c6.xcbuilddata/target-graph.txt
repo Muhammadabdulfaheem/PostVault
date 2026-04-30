@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'PostVaultUITests' in project 'PostVault'
+➜ Explicit dependency on target 'PostVault' in project 'PostVault'
+Target 'PostVault' in project 'PostVault' (no dependencies)

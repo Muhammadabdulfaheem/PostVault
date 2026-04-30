@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vc-Posts">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Posts-->
+        <scene sceneID="scn-Posts">
+            <objects>
+                <viewController storyboardIdentifier="PostsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vc-Posts" customClass="PostsViewController" customModule="PostVault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v-Posts">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tv-Posts">
+                                <rect key="frame" x="10" y="138" width="373" height="646"/>
+                            </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="ld-Posts">
+                                <rect key="frame" x="178" y="432.66666666666669" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sa-Posts"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ld-Posts" firstAttribute="centerX" secondItem="sa-Posts" secondAttribute="centerX" id="c-Loader-X"/>
+                            <constraint firstItem="ld-Posts" firstAttribute="centerY" secondItem="sa-Posts" secondAttribute="centerY" id="c-Loader-Y"/>
+                            <constraint firstItem="sa-Posts" firstAttribute="bottom" secondItem="tv-Posts" secondAttribute="bottom" id="c-Posts-Bottom"/>
+                            <constraint firstItem="tv-Posts" firstAttribute="leading" secondItem="sa-Posts" secondAttribute="leading" constant="10" id="c-Posts-Lead"/>
+                            <constraint firstItem="tv-Posts" firstAttribute="top" secondItem="sa-Posts" secondAttribute="top" constant="20" id="c-Posts-Top"/>
+                            <constraint firstItem="sa-Posts" firstAttribute="trailing" secondItem="tv-Posts" secondAttribute="trailing" constant="10" id="c-Posts-Trail"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Posts" id="ni-Posts"/>
+                    <connections>
+                        <outlet property="loader" destination="ld-Posts" id="o-Loader-Posts"/>
+                        <outlet property="tableView" destination="tv-Posts" id="o-Table-Posts"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbr-Posts" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-612.97709923664115" y="0.0"/>
+        </scene>
+        <!--Favorites-->
+        <scene sceneID="scn-Favorites">
+            <objects>
+                <viewController storyboardIdentifier="FavoritesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vc-Favorites" customClass="FavoritesViewController" customModule="PostVault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v-Favorites">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tv-Favorites">
+                                <rect key="frame" x="10" y="138" width="373" height="646"/>
+                            </tableView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="ndp-CW-gVN">
+                                <rect key="frame" x="20" y="420.66666666666669" width="353" height="61"/>
+                                <string key="text">No favorites yet
+Save posts you love from the Posts tab and they will show up here.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sa-Favorites"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ndp-CW-gVN" firstAttribute="centerX" secondItem="sa-Favorites" secondAttribute="centerX" id="3hO-xY-yzR"/>
+                            <constraint firstItem="ndp-CW-gVN" firstAttribute="leading" secondItem="v-Favorites" secondAttribute="leading" constant="20" id="45a-e0-LKN"/>
+                            <constraint firstItem="ndp-CW-gVN" firstAttribute="centerY" secondItem="sa-Favorites" secondAttribute="centerY" id="PyX-vP-yfM"/>
+                            <constraint firstItem="sa-Favorites" firstAttribute="bottom" secondItem="tv-Favorites" secondAttribute="bottom" id="c-Fav-Bottom"/>
+                            <constraint firstItem="tv-Favorites" firstAttribute="leading" secondItem="sa-Favorites" secondAttribute="leading" constant="10" id="c-Fav-Lead"/>
+                            <constraint firstItem="tv-Favorites" firstAttribute="top" secondItem="sa-Favorites" secondAttribute="top" constant="20" id="c-Fav-Top"/>
+                            <constraint firstItem="sa-Favorites" firstAttribute="trailing" secondItem="tv-Favorites" secondAttribute="trailing" constant="10" id="c-Fav-Trail"/>
+                            <constraint firstAttribute="trailing" secondItem="ndp-CW-gVN" secondAttribute="trailing" constant="20" id="y0o-bg-2S7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Favorites" id="ni-Favorites"/>
+                    <connections>
+                        <outlet property="emptyStateLabel" destination="ndp-CW-gVN" id="o-EmptyState-Fav"/>
+                        <outlet property="tableView" destination="tv-Favorites" id="o-Table-Favorites"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbr-Favorites" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="400" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
